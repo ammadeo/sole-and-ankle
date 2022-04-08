@@ -23,7 +23,10 @@ const Sidebar = () => {
   );
 };
 
-const Wrapper = styled.aside``;
+const Wrapper = styled.aside`
+min-width: 240px;
+margin-right: 32px;
+`;
 
 const Link = styled.a`
   display: block;
